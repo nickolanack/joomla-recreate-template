@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+.site_content {
+    text-align: center;
+}
+
+.site_content .site_main {
+    display: inline-block;
+    text-align: left;
+     width: 600px;
+}
+
+.login fieldset, #user-registration fieldset, #member-registration fieldset {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 110px;
+}
+td > label {
+    float: right;
+    padding-right: 10px;
+}
+#member-registration label {
+    width: 180px;
+}
+input#username, input#password, input#password2, input#passwd, input#jform_email, input#email, input#name, input#jform_name, input#jform_username, input#jform_password1, input#jform_password2, input#jform_email1, input#jform_email2{
+    border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    height: 30px;
+    margin-bottom: 5px;
+    text-indent: 10px;
+    width: 400px;
+}
+input#username, input#password, input#passwd, input#jform_email{
+	
+	width: 400px;
+}
+
+button.button, button.validate, input.button {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px #CCCCCC;
+    float: right;
+    height: 30px;
+    margin-right: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#user-registration dt, #user-registration dd, #member-registration dt, #member-registration dd {
+    display: inline-block;
+    margin: 0;
+}
+
+#jform_spacer-lbl {
+    text-align: left;
+    width: 400px;
+}
+
+.spacer {
+    display: block;
+    font-family: 'The Girl Next Door',cursive;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 490px;
+}
+
+fieldset.input {
+    border: medium none;
+  
+}
+
+
+#com-form-login ul a {
+    color: #3A6CCF;
+    text-decoration: none;
+}	
+	
+
+fieldset.input p > br {
+    display: none;
+}

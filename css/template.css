@@ -1,0 +1,486 @@
+@IMPORT
+	url('http://fonts.googleapis.com/css?family=Montserrat+Alternates');
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#gt_banner {
+	box-shadow: 0 0 5px #AAAAAA;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	background-color: #000000;
+}
+
+.gt_pos {
+	display: inline-block;
+	white-space: nowrap;
+	width: 1100px;
+	font-size: 1.3em;
+	background: #000000;
+}
+
+.login {
+	float: right;
+	padding: 0px 5px;
+	text-decoration: none;
+	line-height: 50px;
+	list-style: none outside none;
+}
+
+.displayPic {
+	float: right;
+	padding-left: 5px;
+}
+
+.login a {
+	text-decoration: none;
+	color: #ffffff
+}
+
+#loginPopContent {
+	background-color: black;
+	height: 300px;
+	padding: 15px;
+	position: absolute;
+	text-align: left;
+	width: 215px;
+	z-index: 1006;
+	line-height: 5px;
+	font-size: 16px;
+	right: 0px;
+}
+#loginPopContent{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	border-radius: 0 0 5px 5px;
+}
+
+.username_box {
+	color: #FFFFFF;
+}
+
+#gt_banner .menu {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 100px;
+}
+
+#gt_banner .menu li {
+	float: left;
+	list-style: none outside none;
+	position: relative;
+}
+
+#gt_banner .menu li.active a {
+	padding: 3px 10px;
+	text-decoration: none;
+}
+
+#gt_banner .menu li a {
+	color: #ffffff;
+	padding: 3px 10px;
+}
+
+#gt_banner .menu li a:hover {
+	asdf: white; /*
+    border-color: #3A6CCF;
+    box-shadow: 0 0 2px #CCCCCC;*/
+	opacity: 1;
+}
+
+#gt_banner .menu.links li a {
+	background-color: black;
+	border: medium none;
+	box-shadow: none;
+	color: white;
+	font-size: small;
+}
+
+#gt_banner .menu li a img {
+	display: none;
+}
+
+#gt_middle,#gt_banner_toggle {
+	display: inline-block;
+	position: relative;
+	width: 1100px;
+}
+
+/*add click here to description box*/
+.DescriptionModule.content a:after {
+	content: "more information";
+	font-size: 10px;
+}
+
+.DescriptionModule.content a {
+	font-size: 0;
+}
+
+/*margin around map*/
+#mapContainer {
+	margin-left: 11px;
+	margin-right: 18px;
+	margin-top: 30px;
+}
+
+#gt_middle {
+	padding-top: 8px;
+	border-top: none;
+	text-align: left;
+}
+
+#gt_banner_toggle {
+	z-index: 1;
+}
+
+#gt_banner_toggle>div {
+	background-image:
+		url("/templates/shimatheme/images/recreate_logo_tree.png");
+	background-size: 500px auto;
+	color: transparent;
+	display: block;
+	font-family: 'Montserrat Alternates', serif;
+	font-size: 78px;
+	height: 169px;
+	left: 306px;
+	position: absolute;
+	text-align: center;
+	top: 5px;
+	width: 500px;
+	background-repeat: no-repeat;
+}
+
+.geoliveLogo {
+	background: none repeat scroll 0 0 white;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0 0 3px white;
+	padding: 5px;
+	margin-bottom: 40px;
+}
+
+fieldset.geolive_map_frame {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 3px 3px 3px 3px;
+	margin: 10px;
+	padding: 20px;
+}
+
+fieldset.geolive_map_frame>legend {
+	color: #555555;
+	font-family: 'PT Serif', serif;
+	font-size: 25px;
+	text-shadow: 0 0 1px black, 0 0 2px white;
+}
+
+.geolive_mediaMap_container {
+	position: relative;
+}
+
+.geolive_mediaMap_container>.geolive_inner {
+	border: 4px solid rgb(70, 130, 180);
+	box-shadow: 0 0 3px black;
+	overflow: hidden;
+}
+
+#module_bottom {
+	color: #666666;
+	/*font-family: 'Montserrat Alternates',serif;*/
+	margin-top: 50px;
+}
+
+#module_bottom strong {
+	color: #555555;
+	font-size: 1.7em;
+}
+
+#module_bottom a {
+	color: #3A6CCF;
+	text-decoration: none;
+}
+
+/*custom css for "MAP CREATED BY"*/
+h5.geoliveLogo {
+	font-family: 'Open Sans', serif;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+/*custom css for register */
+#modlgn-username.input-small {
+
+
+	font-family: 'Open Sans', serif;
+	margin-bottom: 5px
+}
+
+#modlgn-passwd.input-small {
+
+
+	font-family: 'Open Sans', serif;
+}
+
+#form-login-submit {
+	margin-top: 5px;
+}
+
+.btn.btn-primary.logout {
+	margin-top: 5px;
+}
+
+#loginPopContent td {
+	vertical-align: top;
+}
+
+.userdata {
+	border: medium none;
+	font-family: 'Open Sans', serif;
+	font-size: 0.9em;
+}
+
+.input-prepend.input-append {
+	padding-bottom: 5px;
+}
+
+.control-group.checkbox {
+	padding-bottom: 5px;
+}
+
+#mod_login_remembermetext>label {
+	margin-right: 5px;
+}
+
+#mod_login_username {
+	margin-bottom: 6px;
+}
+
+.cbLostLoginLi {
+	list-style: none outside none;
+}
+
+.cbLostLoginLi {
+	display: none;
+}
+
+.userimage {
+	padding-right: 6.8px;
+}
+
+.registerimage {
+	padding-right: 6.8px;
+}
+
+#loginPopContent>hr {
+	margin: 10px 0;
+	border: 1px dashed rgba(255,255,255,0.5);
+	border-top: none;
+}
+
+.element-invisible {
+	display: none;
+}
+
+.unstyled>li:first-child {
+	display: none;
+}
+
+.unstyled {
+	display: none;
+}
+
+.control-group.checkbox {
+	display: none;
+}
+
+.loginRegisterText {
+	font-size: 13px;
+	line-height: 16px;
+	margin: 2px 0;
+}
+
+.hs_users_socials {
+	margin: 0;
+}
+
+.hs_social_list {
+	font-size: 13px;
+	padding-left: 0;
+}
+
+.controls>label {
+	display: none;
+}
+
+.tooltip-inner {
+	display: none;
+}
+
+/*controls the position of the slideown*/
+#loginWidth {
+	display: block;
+	position: relative;
+}
+
+.one {
+	display: none;
+}
+
+.BooleanAttribute {
+	float: left;
+}
+
+.blog-featured,.item-page,.blog {
+	color: #555555;
+}
+
+h2 {
+	color: rgb(184, 0, 184);
+	font-weight: 100;
+}
+
+span.first-word {
+	color: darkcyan;
+	font-size: 2.5em;
+}
+
+.gt_c>h1 {
+	font-weight: 100;
+	color: steelblue;
+	text-align: left;
+	cursor: pointer;
+}
+
+span.first-word:before {
+	content: "'";
+	color: rgb(184, 0, 184);
+}
+
+span.first-word:after {
+	content: "'";
+	color: rgb(184, 0, 184);
+}
+
+span.withScale {
+	color: steelblue;
+}
+
+#gt_bottom span {
+	padding-left: 10px;
+display: inline-block;
+
+color: steelblue;
+text-transform: lowercase;
+}
+
+#gt_bottom a {
+	position: relative;
+	float: left;
+	width: 190px;
+	font-size: 10px;
+	text-align: left;
+	margin-right: 75px;
+}
+
+#gt_bottom img {
+	position: absolute;
+	right: 100%;
+}
+
+#gt_bottom {
+	width: 1000px;
+	margin: auto;
+
+}
+
+li.active:after {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid white;
+	content: "";
+	bottom: -10px;
+	left: calc(50% -   19px);
+	position: absolute;
+}
+
+}
+li.active {
+	position: relative;
+}
+
+#loginPopContent .input-small {
+	width: 160px;
+	height: 25px;
+	border: 1px solid rgb(184, 0, 184);
+	border-radius: 4px;
+	text-indent: 5px;
+	color: rgb(70, 130, 180);
+	font-size: 16px;
+}
+
+#loginPopContent button {
+	background-color: white;
+	border-radius: 4px;
+	border: 1px solid rgb(184, 0, 184);
+	height: 25px;
+	margin: 0;
+	cursor: pointer;
+	color: rgb(184, 0, 184);
+}
+
+
+.infowindow_content a {
+	color: rgb(184, 0, 184);
+}
+
+
+.infowindow_tab .tab.active>span {
+
+}
+
+
+div.infowindow_tab {
+	left: -12px;
+}
+
+div.infowindow_tab .tab:first-child {
+    border-left-color: steelblue;
+    border-top-left-radius: 4px;
+}
+.infowindow_tab .tab:last-child {
+    border-top-right-radius: 4px;
+}
+
+
+.infowindow_tab .tab:last-child {
+    border-top-right-radius: 4px;
+}
+span.infowindow_bl {
+    border-bottom-left-radius: 4px;
+}
+span.infowindow_br {
+    border-bottom-right-radius: 4px;
+}
+span.infowindow_tr {
+    border-top-right-radius: 4px;
+}
+span.infowindow_tl, span.infowindow_t, span.infowindow_tr, 
+span.infowindow_l, span.infowindow_r, 
+span.infowindow_bl, span.infowindow_b, span.infowindow_br{
+	
+	border-color:steelblue;
+	
+}

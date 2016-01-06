@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+.blog-featured, .item-page, .blog{
+	
+}
+
+.blog-featured > h1 , .item-page>h1, .blog>h1, .blog-featured > h2 , .item-page>h2{
+    margin: 0;
+    color: #6F1010;
+    font-family: 'Open Sans',sans-serif;
+    text-shadow: 0 0 5px white;
+}
+.item-page > h2 > a {
+    color: #6F1010;
+    text-decoration: none;
+}
+
+ul.actions {
+    float: right;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.actions > li {
+    float: left;
+    list-style: none outside none;
+    padding: 5px;
+}
+
+dl.article-info {
+    color: #18333F;
+    font-family: 'The Girl Next Door',cursive;
+    font-size: small;
+    line-height: 1.2em;
+}
+
+dl.article-info > dt {
+    font-size: 1.2em;
+}
+dl.article-info > dd {
+    margin-left: 20px;
+}

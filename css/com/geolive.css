@@ -1,0 +1,54 @@
+/*map CSS values*/
+.Attribute_Value {
+    border: 1px solid #979797;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.AttributesContainer .TextAttribute_Title {
+	color:#000000;
+}
+
+.geolive_window_title_content > span {
+	color: darkcyan;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+.infow_bkg, .geolive_window_page {
+    background-color: #d3effb;
+    border-width: 3px;
+}
+
+.infowindow_title {
+
+}
+
+.AttributesContainer {
+    margin-top: 4px;
+}
+
+.videoLink {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.geolive_window_footer {
+    padding-bottom: 4px;
+    padding-right: 5px;
+}
+
+.Attribute_Item.keywords > span.Attribute_Value {
+	background-color: whitesmoke;
+	color: steelblue;
+}
+
+
+.AttributesContainer span.TextAttribute_Title {
+	color: rgb(184, 0, 184);
+	font-weight: 400;
+}
+
+/*end map CSS*/
